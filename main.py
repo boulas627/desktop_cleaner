@@ -1,25 +1,17 @@
 import sys
 import time 
 import logging 
+import shutil
 from tkinter import filedialog
-from Pathlib import Path
+from pathlib import Path
 
 # this script will create directories for excel and powerpoint document types and place the correct file types into those folders 
 # link to guide that I used: https://vivekhere.medium.com/how-i-organised-my-chaotic-folders-with-a-python-script-b70c92f01954
 
-document_types = {
-    "PowerPoints": ["pptx"], 
-    "Excel": ["xml", "xlsx"], 
-    "Videos": ["mp4", "mpeg", "mkv", "srt"],
-    "Audio": ["mp3", "wav", "ogg"],
-    "Compressed": ["zip", "tar", "rar"]
-}
-
-def get_directory(p): 
-    return p 
 
 def get_path(directory): 
     PATH = Path(directory)
+    # now setting our destination for organized files 
     dest = PATH / "Organized"
     dest.mkdir(exist_ok=True)
     return PATH
@@ -32,7 +24,12 @@ def get_files(PATH):
 
     return files 
 
-def move_files(files): 
+def get_dest(PATH): 
+    dest = PATH / "Organized"
+    dest.mkdir(exist_ok=True)
+    return dest
+
+def move_files(files, filetypes, dest): 
     for file in files: 
         done = 0 
 
@@ -49,7 +46,24 @@ def move_files(files):
 def get_powerpoint_files(files): 
     return files 
 
+filetypes = {
+    "PowerPoints": ["pptx"], 
+    "Excel": ["xml", "xlsx"], 
+    "Videos": ["mp4", "mpeg", "mkv", "srt"],
+    "Audio": ["mp3", "wav", "ogg"],
+    "Compressed": ["zip", "tar", "rar"]
+}
+
 
 
 p = filedialog.askdirectory()
-print(p)
+print("Our directory is: ", p)
+path = get_path(p)
+
+# print("Now getting our files")
+# print(get_files(path))
+
+files = get_files(path) 
+
+destination = get_dest(path)
+move_files(files, filetypes, destination)
