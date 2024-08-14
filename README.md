@@ -1,4 +1,4 @@
-ECS Terminology: 
+# ECS Terminology: 
 
 Task Definition - Blueprint that describes how a docker container shoudl launch. Settings include port, docker image, cpu shares, memory requirement, command to run, and environmental variables. 
 
