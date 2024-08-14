@@ -36,7 +36,7 @@ env:
   ECR_REPOSITORY: test_ecr                     # set this to your Amazon ECR repository name
   ECS_SERVICE: Test_Service                    # set this to your Amazon ECS service name
   ECS_CLUSTER: Test_Cluster                    # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: Test_Task:1             # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: Test_Task               # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: first_container              # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
