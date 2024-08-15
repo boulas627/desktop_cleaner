@@ -25,7 +25,7 @@ jobs:
         languages: ${{ matrix.language }}
 
     - name: Autobuild
-      uses: github/codeql-action/autobuild@v1
+      uses: github/codeql-action/autobuild@v2
 
     - name: Run Security Scan
-      uses: github/codeql-action/analyze@v1
+      uses: github/codeql-action/analyze@v2
