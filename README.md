@@ -1,6 +1,9 @@
+# Python Script 
+This script is meant to run on your local machine and organize your folders. The user is responsible for selecting a specific folder that they would like organized and the script will do the rest. 
+
 # ECS Terminology
 
-Task Definition - Blueprint that describes how a docker container shoudl launch. Settings include port, docker image, cpu shares, memory requirement, command to run, and environmental variables. 
+Task Definition - Blueprint that describes how a docker container should launch. Settings include port, docker image, cpu shares, memory requirement, command to run, and environmental variables. 
 
 Task - The running container with settings defined in task definition. This is an instance of the task definition. 
 
