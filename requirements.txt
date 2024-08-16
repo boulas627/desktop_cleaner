@@ -373,7 +373,7 @@ SQLAlchemy-Utils==0.37.8
 statsbomb==0.3.0
 statsbombpy==1.5.0
 statsmodels==0.11.0
-streamlit==0.89.0
+streamlit==1.37.0
 sympy==1.5.1
 tables==3.6.1
 tblib==1.6.0
