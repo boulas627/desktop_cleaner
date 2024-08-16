@@ -1,5 +1,10 @@
-# Python Script 
-This script is meant to run on your local machine and organize your folders. The user is responsible for selecting a specific folder that they would like organized and the script will do the rest. 
+# Desktop Cleaner Python Script 
+This script is meant to run on your machine and organize the folders in your local file system. The user is responsible for selecting a specific folder that they would like organized and the script will do the rest of the work. Depending on the filename extension, each file in a specific folder will be sorted into one of the new folder's that would be created: 
+- PowerPoints
+- Excel
+- Videos
+- Audio
+- Compressed
 
 # ECS Terminology
 
