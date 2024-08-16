@@ -338,7 +338,7 @@ QDarkStyle==2.8
 QtAwesome==0.6.1
 qtconsole==4.6.0
 QtPy==1.9.0
-requests==2.22.0
+requests==2.32.2
 requests-cache==0.9.6
 rope==0.16.0
 Rtree==0.9.3
