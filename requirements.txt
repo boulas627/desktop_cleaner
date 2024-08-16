@@ -400,7 +400,7 @@ virtualenv-clone==0.5.7
 watchdog==0.10.2
 wcwidth==0.1.8
 webencodings==0.5.1
-Werkzeug==2.2.2
+Werkzeug==3.0.3
 widgetsnbextension==3.5.1
 wrapt==1.11.2
 wurlitzer==2.0.0
