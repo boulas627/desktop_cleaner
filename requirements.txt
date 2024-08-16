@@ -172,7 +172,7 @@ psutil==5.6.7
 psycopg2-binary==2.9.1
 ptyprocess==0.6.0
 py==1.8.1
-pyarrow==5.0.0
+pyarrow==14.0.1
 PyAutoGUI==0.9.52
 pycodestyle==2.5.0
 pycosat==0.6.3
