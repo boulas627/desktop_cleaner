@@ -86,7 +86,7 @@ html5lib==1.0.1
 http-client==0.1.22
 httplib2==0.18.1
 hypothesis==5.5.4
-idna==2.8
+idna==3.7
 imageio==2.6.1
 imagesize==1.2.0
 importlib-metadata==5.2.0
