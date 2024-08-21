@@ -393,7 +393,7 @@ uber-rides==0.6.0
 ujson==1.35
 unicodecsv==0.14.1
 url-normalize==1.4.3
-urllib3==1.25.8
+urllib3==1.26.19
 validators==0.18.2
 virtualenv==20.17.1
 virtualenv-clone==0.5.7
