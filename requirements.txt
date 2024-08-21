@@ -184,7 +184,7 @@ pydeck==0.7.0
 pydocstyle==4.0.1
 pyflakes==2.1.1
 PyGetWindow==0.0.9
-Pygments==2.5.2
+Pygments==2.15.0
 PyJWT==1.7.1
 pylint==2.4.4
 PyMsgBox==1.0.9
